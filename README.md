@@ -30,3 +30,5 @@ Example output
 
 
   8 passing (17s)
+  ![image](https://user-images.githubusercontent.com/76648264/152215742-76191aa4-3e96-48c4-a831-19ab1fa9ac2a.png)
+
