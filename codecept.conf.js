@@ -15,6 +15,13 @@ exports.config = {
     },
   },
   helpers: {
+    Playwright: {
+      url: "https://qa-ui.venzee.io",
+      show: true,
+      browser: "chromium",
+    },
+  },
+  helpers: {
     REST: {
       endpoint: "https://6151ff8e4a5f22001701d590.mockapi.io",
       defaultHeaders: {
@@ -28,7 +35,7 @@ exports.config = {
     },
 
     Puppeteer: {
-      url: "https://6151ff8e4a5f22001701d590.mockapi.io",
+      url: "https://qa-ui.venzee.io",
       restart: false,
       waitForNavigation: "networkidle0",
       waitForAction: 500,
